@@ -1,0 +1,7 @@
+<launch>
+  <node name="baxter_kinematic_model" pkg="baxter_moveit" type="ik_node_baxter" respawn="false" output="screen">
+    <rosparam command="load" file="$(find baxter_moveit_config)/config/kinematics.yaml"/>
+  </node>
+
+  <node name="checkers" pkg="checkers" type="checkers_node" output="screen" />
+</launch>

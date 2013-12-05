@@ -1,0 +1,6 @@
+int32 start_loc    # Square ID from Below
+int32[] end_loc      # Square IDs from Below, in order
+bool king
+---
+bool success
+string message

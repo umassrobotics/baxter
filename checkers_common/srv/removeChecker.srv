@@ -1,0 +1,5 @@
+int32 location    # Square ID from Below
+bool king
+---
+bool success
+string message
